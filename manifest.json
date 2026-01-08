@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Data Scraper Lite",
+  "version": "1.0",
+  "description": "E-ticaret sitelerinden ürün bilgilerini kazıyan ve CSV olarak indiren hafif bir araç.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+}
